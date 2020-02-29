@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charging Options</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<center><h1>Charging Options</h1></center>
+    <link rel="stylesheet" href="Electrx.css">
+<center><div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">TSA Chapter
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="">About TSA</a>
+          <a href="">Activities</a>
+          <a href="Officers.html">Officers</a>
+        </div>
+        </div> 
+        <div class="dropdown">
+        <button class="dropbtn">CTE
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Curriculum</a>
+            <a href="">Projects</a>
+            <a href="">Staff</a>
+        </div>
+        </div> 
+        <div class="dropdown">
+        <button class="dropbtn">Design Brief
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Shop</a>
+            <a href="Charging.html">Charging</a>
+            <a href="Carbon Impact.html">Carbon Impact</a>
+            <a href="Locations.html">Locations</a>
+            <a href="Test Drive.html">Test Drive</a>
+            <a href="Awards.html">Awards</a>
+            <a href="Reviews.html">Reviews</a>
+            <a href="ShopForm.html">Order</a>
+            <a href="About.html">About</a>
+            
+
+        </div>
+        </div>
+            <a href="Resources.html">Resources</a>
+        </div> 
+</center>
+<style>
+
+/* Style the tab */
+body {
+  margin: 0 auto; /* Center website */
+  max-width: Max width; /* Max width */
+  padding: 10px;
+}
+.tab {
+  overflow: hidden;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: darkgray;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: dimgray;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: dimgray;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background-color: white;
+
+}
+</style>
+    </head>
+<body style="background-color:lightgray;">
+<p>All-electric vehicles do not use gasoline for power and do not have a gas tank. Therefore, instead of using gallons of gas and having to pay the expensive price of doing so, all-electric vehicles utilize electricity as fuel to power an electric motor and battery, which is significantly cheaper. Furthermore, the use of electricity makes the process of refueling a vehicle much more flexible as it all for vehicles to be charged almost anywhere, including at home. Electrx vehicles can employ two different modes for charging: Ex-stations of Ex-connectors. 
+</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openChargingType(event, 'Ex-Stations')">Ex-Station</button>
+  <button class="tablinks" onclick="openChargingType(event, 'Ex-Connectors')">Ex-Connector </button>
+</div>
+
+<div id="Ex-Stations" class="tabcontent">
+  <h3>Ex-Station</h3>
+  <p style = "float: right;"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/BMW_i3_charging_port.jpg"  class = "float-left" alt="..." width = "300" height = "200"></p> 
+      <p>Ex-stations are super-fast charging stations. They are stand-alone devices located in various places, not including residential areas, as they require highly specialized, high-powered equipment to install and maintain. These stations usually provide around 60 to 100 miles of range to Electrx vehicles per 20 minutes of charging. <br><br></p>
+    <p>Cost: 10 Cents Per kWh</p><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<div id="Ex-Connectors" class="tabcontent">
+  <h3>Ex-Connector</h3>
+  <p style = "float: right;"><img src="https://storage.needpix.com/rsynced_images/electric-cars-1068918_1280.jpg"  class = "float-left" alt="..." width = "300" height = "200"></p> 
+  <p>Ex-connectors utilize a 120 V AC plug that can be inserted into a standard outlet and connected to the vehicle. They do not require any additional equipment or custom installation and are the cheapest type of charger. Therefore, they are usually used in residences and charge Electrx vehicles overnight as this type of charger usually provides up to 5 miles of range per hour of charging.<br><br></p>
+      <p>Cost: $350 Per Ex-Connector</p> <br><br><br><br><br><br><br><br><br><br>
+</div>
+
+
+<script>
+function openChargingType(evt, chargingType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(chargingType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 

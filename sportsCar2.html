@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:lightgray;">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Electrx.css">
+<title>Model X2</title>
+<center><div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">TSA Chapter
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="">About TSA</a>
+          <a href="">Activities</a>
+          <a href="Officers.html">Officers</a>
+        </div>
+        </div> 
+        <div class="dropdown">
+        <button class="dropbtn">CTE
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Curriculum</a>
+            <a href="">Projects</a>
+            <a href="">Staff</a>
+        </div>
+        </div> 
+        <div class="dropdown">
+        <button class="dropbtn">Design Brief
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Shop</a>
+            <a href="Charging.html">Charging</a>
+            <a href="Carbon Impact.html">Carbon Impact</a>
+            <a href="Locations.html">Locations</a>
+            <a href="Test Drive.html">Test Drive</a>
+            <a href="Awards.html">Awards</a>
+            <a href="menu.html">Reviews</a>
+            <a href="ShopForm.html">Order</a>
+            <a href="About.html">About</a>
+            
+
+        </div>
+        </div>
+            <a href="Resources.html">Resources</a>
+        </div> 
+</center>
+<style>
+body {
+  margin: 20;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Four columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h1 style="text-align:center">Model X2</h1>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 2</div>
+    <img src="https://www.pngkit.com/png/full/766-7667487_2019-porsche-911-gt3-porsche-gt3-rs-png.png " style="width:75%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 2</div>
+    <img src="https://pngimg.com/uploads/porsche/porsche_PNG10615.png 
+" style="width:75%">
+  </div>
+
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://www.pngkit.com/png/full/766-7667487_2019-porsche-911-gt3-porsche-gt3-rs-png.png " style="width:75%" onclick="currentSlide(1)" alt="Model X2 in Grey">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://pngimg.com/uploads/porsche/porsche_PNG10615.png 
+" style="width:75%" onclick="currentSlide(2)" alt="Model X2 in Black">
+    </div>
+    
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+</body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #666;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  font-family: serif
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #222;
+  color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<center><br><br><br><br><br><br><h2>More Information</h2></center>
+
+<button class="accordion">Specs</button>
+<div class="panel">
+  <font size= "+1"><h4>Battery:</h4></font>
+  <p>Short Range</p><br>
+    <font size= "+1"><h4>Acceleration:</h4></font>
+  <p>3 seconds 0-80 mph</p><br>
+    <font size= "+1"><h4>Range:</h4></font>
+  <p>350 miles</p><br>
+    <font size= "+1"><h4>Drive:</h4></font>
+  <p>Two-Wheel Drive</p><br>
+    <font size= "+1"><h4>Seating:</h4></font>
+  <p>2 people</p><br>
+    <font size= "+1"><h4>Wheels:</h4></font>
+  <p>20" Wheels</p><br>
+    <font size= "+1"><h4>Cargo:</h4></font>
+  <p>12 cubic feet</p><br>
+    <font size= "+1"><h4>Weight:</h4></font>
+  <p>2,900 lbs</p><br>
+    <font size= "+1"><h4>Displays:</h4></font>
+  <p>8" by 10" Center Touchscreen</p><br>
+    <font size= "+1"><h4>Warranty:</h4></font>
+  <p>Basic Vehicle: 3 years or 40,000 miles (whichever one comes first)</p>
+    <p>Battery and Drive Unit: 6 years or 80,000 miles (whichever one comes first)</p><br>
+    <font size= "+1"><h4>Price:</h4></font>
+  <p>$55,000</p><br>
+</div>
+
+<button class="accordion">Exterior Options</button>
+<div class="panel">
+  <font size= "+1"><h4>Color Options:</h4></font>
+  <p>Black</p>
+  <p>Grey</p><br>
+</div>
+
+<button class="accordion">Interior Options</button>
+<div class="panel">
+  <font size= "+1"><h4>Seat Material Options:</h4></font> 
+    <p>Leather</p><br>
+  <font size= "+1"><h4>Color Options:</h4></font> 
+  <p>Black</p>  
+    <p>White</p>
+    <p>Grey</p><br>
+    
+</div>
+<br><br><br><br>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+<br><br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto; /* Center website */
+  max-width: Max width; /* Max width */
+  padding: 10px;
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 40%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 20%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 14%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 18%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 8%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+.button {
+  background-color: powderblue;
+  color: white; 
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+    }
+</style>
+
+<center><h2>User Rating</h2></center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p>3.7 average based on 245 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>97</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>50</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>35</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>44</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>19</div>
+  </div>
+</div><br><br><br>
+<center><a href="carOrderForm.html"><button class="button">Order</button></a><br><br><br>
+<a href=""><button class="button">Return to Shop</button></a></center><br><br><br>
+</body>
+</html>
