@@ -1,2 +1,2 @@
-﻿<html><body><a href="Homepage%20code.html">Electrx</a></body></html>
+﻿<html><body><a href="Homepage code.html">Electrx</a> -- Link to main homepage.</body></html>
           
