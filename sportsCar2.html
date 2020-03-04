@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Electrx.css">
@@ -44,9 +44,44 @@
 
         </div>
         </div>
-            <a href="Resources.html">Resources</a>
+            <div class="dropdown">
+        <button class="dropbtn">Resources
+            <i class="fa fa-caret-down"></i>
+        </button>
+            <div class="dropdown-content">
+                <a href="Resources.html">Resources</a>
+    </div>
         </div> 
+    </div>
 </center>
+<style>
+.accordion {
+  background-color: #666;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  font-family: serif
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #222;
+  color: white;
+  overflow: hidden;
+}
+</style>
+</head>
 <style>
 body {
   margin: 20;
@@ -143,19 +178,18 @@ img {
   opacity: 1;
 }
 </style>
+<h1>Model X2</h1>
 <body>
-
-<h1 style="text-align:center">Model X2</h1>
-
+<br>
 <div class="container">
   <div class="mySlides">
     <div class="numbertext">1 / 2</div>
-    <img src="https://www.pngkit.com/png/full/766-7667487_2019-porsche-911-gt3-porsche-gt3-rs-png.png " style="width:75%">
+    <img src="C:/Users/Chow-Fong.000/Downloads/greySportsX2.png " style="width:75%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 2</div>
-    <img src="https://pngimg.com/uploads/porsche/porsche_PNG10615.png 
+    <img src="C:/Users/Chow-Fong.000/Downloads/blackSportsX2.png 
 " style="width:75%">
   </div>
 
@@ -170,10 +204,10 @@ img {
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="https://www.pngkit.com/png/full/766-7667487_2019-porsche-911-gt3-porsche-gt3-rs-png.png " style="width:75%" onclick="currentSlide(1)" alt="Model X2 in Grey">
+      <img class="demo cursor" src="C:/Users/Chow-Fong.000/Downloads/greySportsX2.png " style="width:75%" onclick="currentSlide(1)" alt="Model X2 in Grey">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://pngimg.com/uploads/porsche/porsche_PNG10615.png 
+      <img class="demo cursor" src="C:/Users/Chow-Fong.000/Downloads/blackSportsX2.png 
 " style="width:75%" onclick="currentSlide(2)" alt="Model X2 in Black">
     </div>
     
@@ -210,40 +244,6 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
-
-
-</body>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.accordion {
-  background-color: #666;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 20px;
-  transition: 0.4s;
-  font-family: serif
-}
-
-.active, .accordion:hover {
-  background-color: #ccc; 
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: #222;
-  color: white;
-  overflow: hidden;
-}
-</style>
-</head>
-<body>
 
 <center><br><br><br><br><br><br><h2>More Information</h2></center>
 
@@ -308,8 +308,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-
-</body>
 <br><br>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -386,7 +384,7 @@ body {
   }
 }
 .button {
-  background-color: powderblue;
+  background-color: darkGrey;
   color: white; 
   font-family: serif;
   font-weight: bold;
@@ -465,7 +463,7 @@ body {
     <div>19</div>
   </div>
 </div><br><br><br>
-<center><a href="carOrderForm.html"><button class="button">Order</button></a><br><br><br>
-<a href=""><button class="button">Return to Shop</button></a></center><br><br><br>
+<center><a href="ShopForm.html"><button class="button">Order</button></a><br><br><br>
+<a href="Shop.html"><button class="button">Return to Shop</button></a></center><br><br><br>
 </body>
 </html>

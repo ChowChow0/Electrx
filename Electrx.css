@@ -71,12 +71,15 @@
     }
 	
 	table, th, td {
-	  border: 1px solid black;
+	  border: 1px solid lightgray;
 	  border-collapse: collapse;
 	  margin: auto;
 	}
-	
-	th, td {
+table {
+    width: 80%
+    table-layout: fixed
+}
+ 	th, td {
 	  padding: 15px;
 	}
 
