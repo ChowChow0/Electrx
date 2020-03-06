@@ -1,5 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<html>
     <title>About TSA</title>
     <head>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -42,8 +41,6 @@
             <a href="Reviews.html">Reviews</a>
             <a href="ShopForm.html">Order</a>
             <a href="About.html">About</a>
-            
-
         </div>
         </div>
             <div class="dropdown">
