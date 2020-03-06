@@ -1,9 +1,11 @@
     body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color:lightgray;
+        font-family: Perpetua, Helvetica, sans-serif;
+        background-image: url("http://m.rgbimg.com/cache1nhXdJ/users/x/xy/xymonau/600/2dyXw5M.jpg");
+        background-color: #cccccc;
         margin: 0 auto; /* Center website */
         max-width: Max width; /* Max width */
         padding: 10px;
+        font-size: 23px;
     }
 
     h1 {
@@ -13,11 +15,12 @@
     .navbar {
       overflow: hidden;
       background-color: #333;
+      font-size: 14px;
     }
 
     .navbar a {
       float: left;
-      font-size: 16px;
+      font-size: 20px;
       color: white;
       text-align: center;
       padding: 14px 16px;
@@ -71,7 +74,7 @@
     }
 	
 	table, th, td {
-	  border: 1px solid lightgray;
+	  border: 0;
 	  border-collapse: collapse;
 	  margin: auto;
 	}
