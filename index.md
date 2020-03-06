@@ -1,2 +1,76 @@
-﻿<html><body><a href="Homepage code.html">Electrx</a> -- Link to main homepage.</body></html>
-          
+﻿<!DOCTYPE html>
+<html>
+    <title>About TSA</title>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <h1>About TSA</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Electrx.css">
+<center><div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">TSA Chapter
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="About TSA.html">About TSA</a>
+          <a href="Activities.html">Activities</a>
+          <a href="Officers.html">Officers</a><a href="Chapter Awards.html">Chapter Awards</a>
+        </div>
+        </div> 
+        <div class="dropdown">
+        <button class="dropbtn">CTE
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Curriculum.html">Curriculum</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Staff.html">Staff</a>
+        </div>
+        </div> 
+        <div class="dropdown">
+        <button class="dropbtn">Design Brief
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Shop.html">Shop</a>
+            <a href="Charging.html">Charging</a>
+            <a href="Carbon Impact.html">Carbon Impact</a>
+            <a href="Locations.html">Locations</a>
+            <a href="Test Drive.html">Test Drive</a>
+            <a href="Awards.html">Awards</a>
+            <a href="Reviews.html">Reviews</a>
+            <a href="ShopForm.html">Order</a>
+            <a href="About.html">About</a>
+            
+
+        </div>
+        </div>
+            <div class="dropdown">
+        <button class="dropbtn">Resources
+            <i class="fa fa-caret-down"></i>
+        </button>
+            <div class="dropdown-content">
+                <a href="Resources.html">Resources</a>
+                </div></div>
+    </div> </center>
+    </head>
+<body><br>
+<center>
+<p><h2>What is TSA?</h2>
+<p>TSA (Technological Student Association) is a national organization allowing 
+opportunities for students from middle schools and high schools to 
+not only grow in STEM fields but also to create a lifelong community for these students.
+<p>The motto for TSA is “Learning to lead in a technical world”  which allows members of
+the organization to learn skills needed in the STEM field and implement them in their 
+futures and current problems in society.<p>
+<h2>Our Creed</h2>
+<p> I believe that technology education holds an important place in my life especially 
+in a quickly-evolving technical world. I believe there is a need for the development of 
+good attitudes concerning work, tools, materials, experimentation, and processes of industry. 
+Guided by my teachers and professionals, I will strive to do my best in making my school, 
+community, state, and nation better places in which to live and spread the influence that 
+technology has on this generation and will have for generations to come.<p>
+
+</center>  
+    </body>
+</html>
