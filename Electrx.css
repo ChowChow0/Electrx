@@ -5,7 +5,7 @@
         margin: 0 auto; /* Center website */
         max-width: Max width; /* Max width */
         padding: 10px;
-        font-size: 23px;
+        font-size: 20px;
     }
 
     h1 {
@@ -33,7 +33,7 @@
     }
 
     .dropdown .dropbtn {
-      font-size: 16px;  
+      font-size: 20px;  
       border: none;
       outline: none;
       color: white;
@@ -85,5 +85,17 @@ table {
  	th, td {
 	  padding: 15px;
 	}
+.button {
+  background-color: #666;
+  color: white; 
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+    }
 
   
